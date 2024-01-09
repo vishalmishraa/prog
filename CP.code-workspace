@@ -29,11 +29,12 @@
 		"java.templates.fileHeader": [],
 		"liveServer.settings.donotVerifyTags": true,
 		"liveServer.settings.donotShowInfoMsg": true,
-		"window.zoomLevel": 1,
+		"window.zoomLevel": 3,
 		"files.associations": {
 			"vector": "cpp",
 			"string": "cpp",
-			"thread": "cpp"
+			"thread": "cpp",
+			"iosfwd": "cpp"
 		}
 	}
 }

@@ -87,7 +87,7 @@
             "level": "off"
         }
     },
-    "editor.fontLigatures": null,
+    "editor.fontLigatures": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 100,
     "explorer.confirmDelete": false,
@@ -99,7 +99,7 @@
         "borderColor : {color}",
         "opacity: 0.5"
     ],
-    "editor.fontWeight": null,
+    "editor.fontWeight": "normal",
     "editor.semanticTokenColorCustomizations": null,
     "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
     "java.templates.fileHeader": [],
@@ -115,11 +115,11 @@
     "editor.guides.bracketPairs": "active",
     "code-runner.executorMap": {
         "javascript": "node",
-        "java": "cd /Users/vishal/Desktop/CP/ && javac Main.java && java  Main < input.txt > output.txt",
+        "java": "cd /Users/vishal/Desktop/CP && javac Main.java && java  Main < input.txt > output.txt",
         // "java": "cd $dir && javac $fileName && java  $fileNameWithoutExt < input.txt > output.txt" ,
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "zig": "zig run",
-        "cpp": "cd /Users/vishal/Desktop/CP/ && g++ cprog.cpp -g -Wall -std=c++17 -o cprog && /Users/vishal/Desktop/CP/cprog < input.txt > output.txt",
+        "cpp": "cd /Users/vishal/Desktop/CP && g++ cprog.cpp -g -Wall -std=c++17 -o cprog && /Users/vishal/Desktop/CP/cprog < input.txt > output.txt",
         //"cpp": "cd $dir && g++ $fileName -g -Wall -std=c++17 -o $fileNameWithoutExt && $dir$fileNameWithoutExt < input.txt > output.txt",
         // "cpp": "cd $dir && g++ $fileName -g -Wall -std=c++17 -o $fileNameWithoutExt && $dir$fileNameWithoutExt ",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",

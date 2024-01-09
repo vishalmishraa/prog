@@ -1,0 +1,16 @@
+output.dSYM/Contents/Info.plist
+main.dSYM/Contents/Resources/DWARF/main
+main.dSYM/Contents/Info.plist
+output.dSYM/Contents/Resources/DWARF/output
+*.class
+input.dSYM/Contents/Resources/DWARF/input
+cprog.dSYM/Contents/Resources/DWARF/cprog
+*.plist
+time_complexity.pdf
+output.txt
+input.txt
+*.txt
+*.DB_Store
+*.dSYM
+cprog
+.DS_Store

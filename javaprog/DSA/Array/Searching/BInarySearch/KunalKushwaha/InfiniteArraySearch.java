@@ -22,8 +22,8 @@ public class InfiniteArraySearch {
              * 
              * At some point it will give error for 
              * ArrayOutOfBound : You have to ignore this error
-             * as we are asuming our array as infinite array but it is not
-             * so , thats whu it is giving this error , 
+             * as we are asuming our array as infinite array but it is not in real
+             * so , thats why it is giving this error , 
              * this error not going to happen when array will be infinite size.
              * 
              * 

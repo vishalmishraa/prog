@@ -15,8 +15,7 @@ public class HAsgg {
             mp.put(arr[i], (i));
 
         }
-
-        System.out.println(mp.get(99));
+        System.out.println(mp.get(33));
 
         sc.close();
 

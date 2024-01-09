@@ -1,6 +1,5 @@
 // main.cpp
-#include "c/STL/checkSTL.h"
-
+#include "c/DSA/Sorting/SelectionSort.h"
 
 int main()
 {

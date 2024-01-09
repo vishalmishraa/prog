@@ -7,7 +7,7 @@ using namespace std;
 
 inline void solve()
 {
-    
+    cout<<"hh";
 }
 
 #endif

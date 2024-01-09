@@ -1,13 +1,9 @@
-import javaprog.DSA.Array.Searching.HAsgg;
-import javaprog.DSA.Array.Searching.BInarySearch.unsolved.SortedMatrix;
-import javaprog.DSA.Hash.HashhMap.UsingIntHashMap;
-import javaprog.DSA.Hash.Hashing.SimpleCHARhash;
-import javaprog.DSA.Hash.Hashing.SimpleINThash;
+import javaprog.DSA.Array.Searching.BInarySearch.KunalKushwaha.floor;
 
 public class Main {
 
     public static void main(String[] args) {
-        HAsgg.solve();
+      System.out.println(floor.solve());
     }
 
 }
