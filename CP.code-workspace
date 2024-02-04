@@ -19,7 +19,10 @@
 			"activityBar.activeBorder": "#faeeee",
 			"statusBar.background": "#c61717",
 			"statusBar.noFolderBackground": "#de543b",
-			"statusBar.debuggingBackground": "#263238"
+			"statusBar.debuggingBackground": "#263238",
+			"editorGroupHeader.tabsBackground": "#044a59",
+			// "editor.foreground": "#000000"
+			// "editor.background": "#fbfbfb",
 		},
 		"files.autoSave": "afterDelay",
 		"files.autoSaveDelay": 100,
@@ -29,12 +32,13 @@
 		"java.templates.fileHeader": [],
 		"liveServer.settings.donotVerifyTags": true,
 		"liveServer.settings.donotShowInfoMsg": true,
-		"window.zoomLevel": 3,
+		"window.zoomLevel": 2,
 		"files.associations": {
 			"vector": "cpp",
 			"string": "cpp",
 			"thread": "cpp",
-			"iosfwd": "cpp"
+			"iosfwd": "cpp",
+			"iostream": "cpp"
 		}
 	}
 }

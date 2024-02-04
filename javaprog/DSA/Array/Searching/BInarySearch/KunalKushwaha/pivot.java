@@ -16,9 +16,9 @@ public class pivot {
                 return mid - 1;
 
             /*
-             * --> case 3: ( arr[start] >= arr[mid] ) suppose start is >= mid like {6 , 7 ,
-             * 0 , 1 , 2 , 3 , 4 ,5}
-             * ^_start ^_mid
+             * --> case 3: ( arr[start] >= arr[mid] ) suppose start is >= mid 
+             * like {6 , 7 , 0 , 1 , 2 , 3 , 4 ,5}
+             *       ^_start     ^_mid
              * 
              * so , in this case all the elemnt after mid will be smaller then start , so we
              * can igrone it .
