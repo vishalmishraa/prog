@@ -14,5 +14,5 @@ input.txt
 *.dSYM
 cprog
 .DS_Store
-config.properties
+
 **/*.class

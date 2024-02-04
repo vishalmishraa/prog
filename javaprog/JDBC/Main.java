@@ -7,6 +7,7 @@ import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) {
+        //check README.md
         try (InputStream input = Main.class.getClassLoader().getResourceAsStream("config.properties")) {
 
             Properties prop = new Properties();
