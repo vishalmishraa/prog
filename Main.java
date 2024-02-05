@@ -4,7 +4,7 @@ public class Main {
   
   
   public static void main(String[] args) {
-    Test.solve();
+    javaprog.JDBC.Main.solve();
     
   }
 

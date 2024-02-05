@@ -14,7 +14,8 @@ input.txt
 *.dSYM
 cprog
 .DS_Store
-config.properties
+**/*.properties
 **/*.class
 Main.java
 cprog.cpp
+config.properties
