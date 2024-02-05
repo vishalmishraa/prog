@@ -1,8 +1,9 @@
 // main.cpp
-#include "c/TEST/test.h"
+#include "c/DSA/Sorting/Sorting2/QuickSort.h"
 
 int main()
 {
     solve();
     return 0;
 }
+

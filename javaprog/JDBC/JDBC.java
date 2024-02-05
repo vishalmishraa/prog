@@ -5,9 +5,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Main {
+public class JDBC {
     public static void main(String[] args) {
-        try (InputStream input = Main.class.getClassLoader().getResourceAsStream("config.properties")) {
+        //check README.md
+        System.out.println("p1");
+        try (InputStream input = JDBC.class.getClassLoader().getResourceAsStream("config.properties")) {
+            System.out.println("p2");
 
             Properties prop = new Properties();
 

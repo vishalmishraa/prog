@@ -68,6 +68,10 @@ inline void QuickSort(vector<int> &arr, int low, int high)
     }
 }
 
+/**
+ * This function takes user input for the size of an array and its elements,
+ * performs QuickSort on the array, and then prints the sorted array.
+ */
 inline void solve()
 {
     int n;
@@ -76,7 +80,7 @@ inline void solve()
     arr.resize(n); // Set the default size of the vector to n
     for (auto &i : arr)
         cin >> i;
-    QuickSort(arr, 0, n - 1);
+    QuickSort(arr, 0, n - 1);// 0 is the low and n-1 is the high
     for (auto &i : arr)
         cout << i << " ";
 }

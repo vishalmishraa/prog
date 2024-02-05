@@ -1,11 +1,12 @@
-import javaprog.DSA.Array.Searching.BInarySearch.KunalKushwaha.ceiling;
+import javaprog.OnlineQuestions.Test;
 
 public class Main {
   
   
   public static void main(String[] args) {
-    System.out.println(ceiling.solve());
+    Test.solve();
     
   }
 
 }
+
