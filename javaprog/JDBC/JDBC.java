@@ -8,9 +8,13 @@ import java.sql.SQLException;
 public class JDBC {
     public static void main(String[] args) {
         //check README.md
+<<<<<<< HEAD:javaprog/JDBC/JDBC.java
         System.out.println("p1");
         try (InputStream input = JDBC.class.getClassLoader().getResourceAsStream("config.properties")) {
             System.out.println("p2");
+=======
+        try (InputStream input = Main.class.getClassLoader().getResourceAsStream("config.properties")) {
+>>>>>>> 10f600bd2b8cd330b231b9ca31e8ac93b09f244a:javaprog/JDBC/Main.java
 
             Properties prop = new Properties();
 
