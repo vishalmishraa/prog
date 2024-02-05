@@ -1,10 +1,10 @@
 
 # To run JDBC programs 
-you need config.properties file , which should have following things wrriten 
+you need JDBC.properties file , which should have following things wrriten 
 
 {
     
-# config.properties
+# JDBC.properties
 
 url = jdbc:mysql://localhost:3306/databse_name
 user = dB_USERNAME
