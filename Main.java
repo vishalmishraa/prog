@@ -1,10 +1,10 @@
-import javaprog.DSA.LinkedList.Intro;
+import javaprog.DSA.LinkedList.SingleLinkedList.LinkedList;
 
 public class Main {
   
   
   public static void main(String[] args) {
-    Intro.solve();
+    LinkedList.solve();
   }
 
 }
